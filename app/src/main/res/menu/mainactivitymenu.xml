@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mn_delete"
+        android:icon="@drawable/ic_delete"
+        android:title="Delete All Item"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/mn_search"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        android:actionViewClass="android.widget.SearchView"
+        tools:targetApi="O"
+        tools:ignore="AppCompatResource" />
+
+
+    <item
+        android:id="@+id/mn_exit"
+        android:icon="@drawable/ic_exit"
+        android:title="Exit"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>

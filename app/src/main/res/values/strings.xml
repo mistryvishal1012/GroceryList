@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GroceryList</string>
+
+    <string-array name="Sort">
+        <item>Item Name</item>
+        <item>Super Market</item>
+        <item>Date</item>
+    </string-array>
+</resources>

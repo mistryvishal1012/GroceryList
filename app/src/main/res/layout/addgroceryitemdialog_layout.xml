@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/edtv_itemName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Enter The Grocery Item Name"
+        android:inputType="text"
+        android:layout_marginTop="40dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="-80dp" />
+
+    <EditText
+        android:id="@+id/edtv_superMarketName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="text"
+        android:layout_marginTop="40dp"
+        android:hint="Enter The Super Market Name"/>
+
+
+    <EditText
+        android:id="@+id/edtv_numOfItem"
+        android:layout_width="match_parent"
+        android:inputType="numberDecimal|numberSigned"
+        android:layout_marginTop="40dp"
+        android:hint="Enter The Number Of  Item Or Weight"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="-39dp"
+        android:ems="10"
+        android:layout_height="40dp" />
+
+
+</LinearLayout>
